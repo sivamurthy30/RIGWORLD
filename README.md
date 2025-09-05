@@ -1,39 +1,48 @@
-# RigWorld Jobs
+# 🚀 RigWorld Jobs
 
 ![RigWorld Jobs Logo](public/RigWorldJobs_Logo.png)
 
-## 🌍 The Ultimate Offshore & Energy Job Platform
-
-RigWorld Jobs is a modern, feature-rich job board for oil rig, offshore, and maritime professionals. Built with React, Vite, and Tailwind CSS, it connects global talent with top employers in the energy sector.
+<p align="center">
+  <img src="https://img.shields.io/github/stars/sivamurthy30/RIGWORLD?style=social" />
+  <img src="https://img.shields.io/github/forks/sivamurthy30/RIGWORLD?style=social" />
+  <img src="https://img.shields.io/github/issues/sivamurthy30/RIGWORLD" />
+  <img src="https://img.shields.io/github/license/sivamurthy30/RIGWORLD" />
+</p>
 
 ---
 
-## 🚀 Features
+## 🌊 The Ultimate Offshore & Energy Job Platform
 
-- **Beautiful UI**: Responsive, modern design with creative header, animated buttons, and smooth transitions.
-- **Job Listings**: Featured jobs, latest jobs, jobs by location, and top job searches.
-- **Company Spotlight**: Discover trusted employers with detailed company cards.
-- **Job Alerts**: Personalized alerts delivered to your inbox.
-- **Stats & Insights**: Real-time stats, salary guides, and industry news.
-- **Creative Navigation**: Highlighted active links, animated sign-in button, and mobile-friendly menu.
-- **Google AdSense Ready**: Easily add vertical and horizontal ads.
-- **Dummy Pages**: Quick navigation to Find Jobs, Companies, Resources, and About.
+> **RigWorld Jobs** is a modern, feature-rich job board for oil rig, offshore, and maritime professionals. Built with React, Vite, and Tailwind CSS, it connects global talent with top employers in the energy sector.
+
+---
+
+## ✨ Features
+
+- 🎨 **Beautiful UI**: Responsive, modern design with creative header, animated buttons, and smooth transitions.
+- 💼 **Job Listings**: Featured jobs, latest jobs, jobs by location, and top job searches.
+- 🏢 **Company Spotlight**: Discover trusted employers with detailed company cards.
+- 🔔 **Job Alerts**: Personalized alerts delivered to your inbox.
+- 📊 **Stats & Insights**: Real-time stats, salary guides, and industry news.
+- 🧭 **Creative Navigation**: Highlighted active links, animated sign-in button, and mobile-friendly menu.
+- 💸 **Google AdSense Ready**: Easily add vertical and horizontal ads.
+- 🧪 **Dummy Pages**: Quick navigation to Find Jobs, Companies, Resources, and About.
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **React** (TypeScript)
-- **Vite** (Fast build & dev)
-- **Tailwind CSS** (Utility-first styling)
-- **Lucide Icons** (Beautiful SVG icons)
-- **React Router** (Navigation)
+- ⚛️ **React** (TypeScript)
+- ⚡ **Vite** (Fast build & dev)
+- 🎐 **Tailwind CSS** (Utility-first styling)
+- 🖼️ **Lucide Icons** (Beautiful SVG icons)
+- 🗺️ **React Router** (Navigation)
 
 ---
 
 ## 📦 Project Structure
 
-```
+```text
 project/
 ├── public/
 │   └── RigWorldJobs_Logo.png
@@ -62,7 +71,7 @@ project/
 
 ---
 
-## ✨ Quick Start
+## ⚡ Quick Start
 
 1. **Clone the repo:**
    ```sh
@@ -84,15 +93,17 @@ project/
 
 ## 🖼️ Screenshots
 
-![Featured Jobs](public/RigWorldJobs_Logo.png)
+<p align="center">
+  <img src="public/RigWorldJobs_Logo.png" alt="RigWorld Jobs Screenshot" width="200" />
+</p>
 
 ---
 
 ## 💡 Customization
-- Add your own job data, company info, and categories in `/src/data/`.
-- Update styles in Tailwind config or component files.
-- Connect to a backend or API for real jobs and companies.
-- Add your AdSense client ID in `GoogleAd.tsx` for monetization.
+- 📝 Add your own job data, company info, and categories in `/src/data/`.
+- 🎨 Update styles in Tailwind config or component files.
+- 🔗 Connect to a backend or API for real jobs and companies.
+- 💸 Add your AdSense client ID in `GoogleAd.tsx` for monetization.
 
 ---
 
