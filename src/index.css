@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Account for fixed header */
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Enhanced Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Smooth transitions for all elements */
+* {
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-duration: 300ms;
+}
+
+/* Remove white gaps during scroll */
+html, body {
+  background-color: #1e293b; /* slate-800 */
+  overflow-x: hidden;
+}
+
+/* Ensure no white backgrounds show through */
+section, div, main {
+  background-color: inherit;
+}
+
+/* Enhanced focus states */
+*:focus {
+  outline: 2px solid #f97316;
+  outline-offset: 2px;
+}
+
+/* Premium hover effects */
+a, button {
+  transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Enhanced smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Premium image transitions */
+img {
+  transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Premium card hover effects */
+.card, .job-card, section {
+  transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Premium button hover effects */
+button {
+  position: relative;
+  overflow: hidden;
+}
+
+button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: left 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+button:hover::before {
+  left: 100%;
+}
+
+/* Premium link hover effects */
+a {
+  position: relative;
+}
+
+a::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #f97316, #ea580c);
+  transition: width 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+a:hover::after {
+  width: 100%;
+}
+
+/* Parallax-like scroll effect for sections */
+section {
+  transform: translateZ(0);
+  will-change: transform;
+}
